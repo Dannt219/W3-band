@@ -6,6 +6,7 @@
 }
 html {
     font-family: Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 .clear {
     clear: both;
@@ -305,6 +306,7 @@ Từ trên xuống dưới
     display: inline-block;
     margin-top: 15px;
     border: none;
+    cursor: pointer;
 }
 
 .place-buy-btn:hover {
@@ -393,6 +395,7 @@ Từ trên xuống dưới
 }
 .modal.open {
     display: flex;
+    z-index: 1;
 }
 
 .modal-container {
